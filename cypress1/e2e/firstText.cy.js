@@ -24,18 +24,5 @@ describe("Nasz pierszy blok testów", () => {
         cy.get("#Examples").scrollIntoView().should("be.visible")
     })
 
-    // it("5 Admin login", () => {
-    //     cy.visit("https://www.edu.goit.global/account/login")
-    //     cy.login('user888@gmail.com', '1234567890')
-    // })
-
-    it("6 Manager login", () => {
-        cy.visit("https://www.edu.goit.global/account/login")
-        cy.login('testowyqa@qa.team', 'QA!automation-1')
-        cy.get('.eckniwg2').click()
-        cy.get('#open-navigation-menu-mobile').click()
-        cy.get('.next-x115od')
-        cy.get(':nth-child(8) > .next-bve2vl').click()
-    })
 
 })
